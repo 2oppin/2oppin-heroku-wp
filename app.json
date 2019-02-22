@@ -1,0 +1,19 @@
+{
+  "addons": [
+    {
+      "plan": "cleardb:ignite",
+      "as" : "MySQL-WP"
+    },
+    {
+      "plan": "memcachier:dev"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    },
+    {
+      "url": "https://github.com/2oppin/heroku-wp-builpack"
+    }
+  ]
+}
